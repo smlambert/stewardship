@@ -42,7 +42,7 @@ const Home: React.FC = () => {
               </Link>
               <Link to="/sites">
                 <Button size="lg" variant="outline" className="bg-transparent text-white border-2 border-white hover:bg-white hover:text-primary-500">
-                  View Projects
+                  Explore Sites
                 </Button>
               </Link>
             </div>
@@ -51,8 +51,8 @@ const Home: React.FC = () => {
       </div>
 
       {/* Stats Section */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-16 relative z-10">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
           <Card className="text-center">
             <CardBody>
               <TreePine className="w-12 h-12 mx-auto mb-4 text-primary-500" />
